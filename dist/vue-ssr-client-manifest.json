@@ -1,0 +1,76 @@
+{
+  "publicPath": "",
+  "all": [
+    "1.65d371fb170bd7bff61f.css",
+    "1.bundle.js",
+    "2.1cb4156924182ad16d17.css",
+    "2.bundle.js",
+    "favicon.ico",
+    "index.ssr.html",
+    "main.bundle.js"
+  ],
+  "initial": [
+    "main.bundle.js"
+  ],
+  "async": [
+    "1.65d371fb170bd7bff61f.css",
+    "1.bundle.js",
+    "2.1cb4156924182ad16d17.css",
+    "2.bundle.js"
+  ],
+  "modules": {
+    "55707992": [
+      6
+    ],
+    "21982b12": [
+      6
+    ],
+    "4d87fb9d": [
+      6
+    ],
+    "2b9ed4a3": [
+      6
+    ],
+    "9c7e3db2": [
+      6
+    ],
+    "6bf6bbae": [
+      6
+    ],
+    "aa3ffc40": [
+      6
+    ],
+    "460aa19b": [
+      0,
+      1
+    ],
+    "729bf242": [
+      2,
+      3
+    ],
+    "6bd4b9f3": [
+      0,
+      1
+    ],
+    "4066cd37": [
+      2,
+      3
+    ],
+    "75b9fd31": [
+      0,
+      1
+    ],
+    "68d5b8fe": [
+      2,
+      3
+    ],
+    "17ce3e60": [
+      0,
+      1
+    ],
+    "31887f58": [
+      2,
+      3
+    ]
+  }
+}
