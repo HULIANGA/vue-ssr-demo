@@ -11,7 +11,19 @@ export function createRouter() {
     {
       path: '/detail',
       name: 'detail',
-      component: () => import('../Page/Detail.vue') // 异步路由
+      component: () => import('../Page/Detail.vue'), // 异步路由
+      children: [
+        {
+          path: '/detail1',
+          name: 'detailFir',
+          component: () => import('../Page/DetailFir.vue') // 异步路由
+        },
+        {
+          path: '/detail2',
+          name: 'detailSec',
+          component: () => import('../Page/DetailSec.vue') // 异步路由
+        }
+      ]
     },
     {
       path: '/list',

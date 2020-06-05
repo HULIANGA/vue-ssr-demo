@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <router-link to="/detail">Goto detail</router-link> 
+    <router-link to="/detail?id=123">Goto detail query1</router-link> 
+    <router-link to="/detail?id=456">Goto detail query2</router-link> 
     <router-link to="/list">Goto list</router-link>
     <router-view></router-view>
   </div>

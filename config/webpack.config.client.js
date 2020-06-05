@@ -49,7 +49,7 @@ module.exports = merge(base, {
     }),
 
     new MiniCssExtractPlugin({
-      filename: '[name].[chunkhash].css'
+      filename: '[name].css'
     })
   ]
 });
